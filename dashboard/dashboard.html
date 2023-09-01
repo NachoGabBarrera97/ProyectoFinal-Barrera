@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>DashBoard</title>
+</head>
+
+<body>
+    <main class="dashBoard">
+
+        <h2>¡Bienvenido!</h2>
+        <p id="welcomeMessage"></p>
+        <div id="dineroDisponible"></div>
+        <div class="contenedorMovimientos">
+            <div class="dineroDepositadoContainer">
+                <label for="dineroDepositado">Ingrese la cantidad de dinero que quiere depositar</label>
+                <input type="number" id="dineroDepositado">
+                <button id="btn">Depositar</button>
+                <p id="mensajeDeposito" class="mensaje-deposito"></p>
+                <div id="historialDepositos"></div>
+            </div>
+            <div class="dineroExtraidoContainer">
+                <label for="dineroRetirado">Ingrese la cantidad de dinero que desea retirar</label>
+                <input type="number" id="dineroRetirado">
+                <button id="btnRetirar">Retirar</button>
+                <p id="mensajeExtracciones" class="mensajeExtracciones"></p>
+                <div id="historialExtracciones"></div>
+            </div>
+            <div class="dineroTranferidoContainer">
+                <label for="dineroTransferido">Ingrese la cantidad de dinero que desea transferir</label>
+                <input type="number" id="dineroTransferido">
+                <label for="numeroCuenta">Ingrese el numero de cuenta a que desea transferir</label>
+                <input type="text" id="numeroCuenta">
+                <button id="btnTransferir">Transferir</button>
+                <p id="mensajeTransferencia" class="mensajeTransferencia"></p>
+                <div id="historialTransferencias"></div>
+
+            </div>
+
+        </div>
+
+        <div id="otrosUsuarios">
+
+        </div>
+        
+        <canvas id="myChart" class="chart-container"></canvas>
+        
+    </main>
+   
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="dashboardScript.js"></script>
+
+</body>
+
+</html>

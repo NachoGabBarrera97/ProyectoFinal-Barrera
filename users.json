@@ -1,0 +1,35 @@
+[
+    {
+        "nombre": "Sofia",
+        "email": "solsoffia@gmail.com",
+        "apellido": "Calvo",
+        "numeroDeCuenta": 12345,
+        "contraseña": 126783,
+        "dinero": 12341234
+    },
+    {
+        "nombre": "Fernando",
+        "email": "fernandoBarrera@gmail.com",
+        "apellido": "Barrera",
+        "numeroDeCuenta": 456,
+        "contraseña": 1243,
+        "dinero": 123411234234
+    },
+    {
+        "nombre": "Marisa",
+        "email": "Mariaisa@gmail.com",
+        "apellido": "Munoz",
+        "numeroDeCuenta": 1357,
+        "contraseña": 123,
+        "dinero": 12341234
+    },
+    {
+        "nombre": "Gonzalo",
+        "email": "GonzaloBarrera@gmail.com",
+        "apellido": "Barrera",
+        "numeroDeCuenta": 368,
+        "contraseña": 12342134,
+        "dinero": 12341234
+    }
+
+]

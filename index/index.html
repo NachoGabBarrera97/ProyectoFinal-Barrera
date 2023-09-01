@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>Banco internacional </title>
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>Banco internacional</h1>
+      <input type="button" value="Registrarse" id="boton">
+  </header>
+  <main>
+
+  </main>
+
+  <div id="popup" class="popup">
+    <div class="popup-contenido">
+      <h2>Registro</h2>
+      <form class="popup-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Registrar</button>
+
+      </form>
+      <button id="cerrarPopup">Cerrar</button>
+    </div>
+  </div>
+
+  <div id="registroExitoso" class="popup">
+    <div class="popup-contenido">
+      <h2>Registro Exitoso</h2>
+      <p>Tu registro ha sido exitoso. ¡Gracias!</p>
+      <a href="../login/login.html">Ingresar</a>
+      <button id="cerrarRegistroExitoso">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
